@@ -1,0 +1,32 @@
+
+/* Style for the checkbox container */
+.CheckBox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+/* Style for the checkbox input */
+.CheckBox input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+/* Style for the actor name label */
+.Actor_Check {
+  font-weight: bold;
+  display: inline-block; /* Ensures the label and checkbox stay on the same line */
+  vertical-align: middle; /* Aligns the label vertically with the checkbox */
+}
+/* Style for the container */
+.cheak_box {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+  height: 200px; /* Set the desired height for the scrollable box */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+/* ... (Other existing styles for .CheckBox, .Actor_Check, etc. remain the same) */
+
+  

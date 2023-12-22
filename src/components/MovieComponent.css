@@ -1,0 +1,119 @@
+/* Common Styles */
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff; 
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px; /* Adjusted margin */
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 15px;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+img {
+  max-width: 100px;
+  height: auto;
+  margin-top: 10px;
+}
+
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 10px;
+  padding: 0;
+  border-radius: 10px;
+}
+
+.movie-item {
+  width: calc(33.33% - 20px);
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.movie-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+.movie-name {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.movie-year {
+  font-size: 1em;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.movie-poster {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.movie-plot {
+  font-size: 0.9em;
+  color: #555;
+}
+
+/* Edit and Delete Buttons */
+
+.edit-btn,
+.delete-btn {
+  padding: 5px 10px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 3px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+  background-color: #c82333; 
+}
+
+.edit-btn:hover {
+  background-color: yellow; 
+}
+
+
+
+
+
